@@ -4,6 +4,7 @@ export function Main({ image, name, rating, price }) {
   return (
     <Card style={{ width: '18rem' }} className="main-container">
       <Card.Img
+        className="product-img"
         variant="top"
         src={image}
         alt={name} />

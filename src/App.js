@@ -58,6 +58,7 @@ function App() {
     },
   ]
   return (
+    
     <div className="App">
      <Navbar /> 
      <Header />
@@ -74,7 +75,7 @@ function App() {
     </section>
     <Footer />
      
-    </div>
+</div>
   );
 }
 export default App;
